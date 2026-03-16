@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometryShape", "GeometryShape.csproj", "{C7606E49-B38A-44C2-A94C-FB4A6DBA3A96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeTest", "..\ShapeTest\ShapeTest.csproj", "{C4D9C02C-02A7-4775-B510-CDE007DBF520}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeTest", "..\ShapeTest\ShapeTest.csproj", "{C4D9C02C-02A7-4775-B510-CDE007DBF520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "triangle", "..\triangle\triangle.csproj", "{E2C559D6-1865-4C3D-9F17-2F97406A0C26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C4D9C02C-02A7-4775-B510-CDE007DBF520}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D9C02C-02A7-4775-B510-CDE007DBF520}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D9C02C-02A7-4775-B510-CDE007DBF520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2C559D6-1865-4C3D-9F17-2F97406A0C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C559D6-1865-4C3D-9F17-2F97406A0C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C559D6-1865-4C3D-9F17-2F97406A0C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C559D6-1865-4C3D-9F17-2F97406A0C26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
