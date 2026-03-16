@@ -17,7 +17,7 @@ namespace triangle
         public void CheckMethodPerimeterForTriangle()
         {
             Triangle triangle = new Triangle( );
-            triangle.SideA = 11;
+            triangle.SideA = 12;
             triangle.SideB = 10;
             triangle.SideC = 10;
             var result = 30;

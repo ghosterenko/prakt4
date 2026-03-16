@@ -1,7 +1,7 @@
 using GeometryShape;
 namespace ShapeTest
 {
-    public class CheckFigure
+    public class Reacangle
     {
         [Fact]
         public void CreateRectangle()

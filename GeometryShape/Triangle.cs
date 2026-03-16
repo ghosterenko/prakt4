@@ -13,12 +13,19 @@ namespace GeometryShape
         public double SideC { get; set; }
         public override double Area ()
         {
-            throw new NotImplementedException( );
+            
+            if (SideA < 1 || SideB < 1 || SideC < 1)
+                throw new ArgumentException("Невалдные данные");
+
+            double p = (SideA + SideB + SideC) / 2;
+            return Math.Sqrt(p*(p-SideA)*(p-SideB)*(p-SideC));
         }
 
         public override double Perimeter ()
         {
-            throw new NotImplementedException( );
+            if (SideA < 1 || SideB < 1 || SideC < 1)
+                throw new ArgumentException("Невалдные данные");
+            return SideA + SideB + SideC;
         }
 
         public override string ToString ()
