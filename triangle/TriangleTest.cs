@@ -17,10 +17,10 @@ namespace triangle
         public void CheckMethodPerimeterForTriangle()
         {
             Triangle triangle = new Triangle( );
-            triangle.SideA = 10;
+            triangle.SideA = 20;
             triangle.SideB = 10;
             triangle.SideC = 10;
-            var result = 30;
+            var result = 40;
             Assert.Equal(result, triangle.Perimeter());
         }
     }
