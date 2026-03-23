@@ -43,7 +43,7 @@ namespace ShapeTest
 
             var ex = Assert.Throws<ArgumentException>(() => rectangle.Area( ));
 
-            Assert.Equal("Невалидные данные", ex.Message);
+            Assert.Equal("ГЌГҐГўГ Г«ГЁГ¤Г­Г»ГҐ Г¤Г Г­Г­Г»ГҐ", ex.Message);
             
         }
         [Fact]
@@ -55,7 +55,7 @@ namespace ShapeTest
 
             var ex = Assert.Throws<ArgumentException>(() => rectangle.Perimeter( ));
 
-            Assert.Equal("Невалидные данные", ex.Message);
+            Assert.Equal("ГЌГҐГўГ Г«ГЁГ¤Г­Г»ГҐ Г¤Г Г­Г­Г»ГҐ", ex.Message);
 
         }
         [Fact]
@@ -80,6 +80,5 @@ namespace ShapeTest
             var res = 30;
             Assert.Equal(res, triangle.Perimeter());
         }
-
     }
 }
