@@ -56,7 +56,7 @@ namespace ShapeTest
             var ex = Assert.Throws<ArgumentException>(() => rectangle.Perimeter( ));
 
             Assert.Equal("Невалидные данные", ex.Message);
-
+        
         }
 
     }
